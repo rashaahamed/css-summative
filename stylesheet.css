@@ -1,0 +1,122 @@
+*{
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* This hover tag is to style links so that they can do specific things */
+a:hover {
+    background-color: #272727;
+    border-radius: 50px;
+    color: #E2E2E2;
+}
+
+/* This visited tag is to change the color of the links after they have been visited */
+a:visited {
+    color: #272727;
+}
+
+/* This tag is to style everything in the body tag */
+body {
+    color: purple;
+    background-color: #E2E2E2;
+    margin: 2% 5% 2% 5%;
+}
+
+/* This is a id tag to style the circle div */
+#circle {
+    position: absolute;
+    height: 145px;
+    width: 150px;
+    background-color: purple;
+    border-radius: 50%;
+}
+
+header {
+    position: sticky;
+    top: 0%;
+}
+
+h1 {
+    text-align: center;
+    position: absolute;
+    font-size: 57px;
+    color: #E2E2E2;
+}
+
+/* This is the unordered lists style tag to style the list */
+nav ul {
+    float: right;
+    margin:0px;
+    padding: 0px;
+    list-style: none;
+    display: inline-block;
+    transition: transform 250ms;
+}
+
+li {
+    color: #E2E2E2;
+    padding: 3px;
+    margin: 3px;
+    font-size: 18px;
+    text-align: center;
+    display: inline-block;
+    transition: transform 250ms;
+}
+
+/* This li:hover tag is so that the list elements will have a transition */
+li:hover {
+    transform: translateY(-5px);
+}
+
+/* This is an id tag to style the homepage praragraph */
+#homepara1 {
+    float: center;
+    color: #E2E2E2;
+    background-color: #272727;
+    padding: 1px;
+    margin: 1px;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 50px;
+}
+
+/* This is an id tag to style the warning banner*/
+#warning {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: red;
+    font-size: 18px;
+    display: inline-block;
+    color:#E2E2E2;
+    
+}
+
+/* This is an id to style the footer */
+#footer {
+    background-color: #272727;
+    text-align: center;
+    color: #E2E2E2;
+    position: relative;
+    width: 100%;
+    top: -150px;
+ }
+
+ h2 {
+     color: purple;
+     float: center;
+ }
+
+main {
+    margin: 20% 1% 20% 1%;
+}
+
+p   {
+    font-size: 18px;
+    display: inline-block;
+}
+
+
+
+
